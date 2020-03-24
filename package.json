@@ -1,0 +1,28 @@
+{
+  "name": "strapi-provider-email-mailtrap",
+  "version": "1.0.0",
+  "description": "Mailtrap provider for strapi email",
+  "keywords": [
+    "email",
+    "mailtrap",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "nodemailer": "^6.4.6"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
