@@ -1,18 +1,30 @@
 {
   "name": "strapi-provider-email-mailtrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mailtrap provider for strapi email",
   "keywords": [
     "email",
     "mailtrap",
     "strapi"
   ],
+  "homepage": "https://github.com/alessandrocaprarelli/strapi-provider-email-mailtrap",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/alessandrocaprarelli/strapi-provider-email-mailtrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alessandrocaprarelli/strapi-provider-email-mailtrap/issues"
+  },
   "directories": {
     "lib": "./lib"
   },
   "main": "./lib",
   "dependencies": {
     "nodemailer": "^6.4.6"
+  },
+  "author": {
+    "name": "Alessandro Caprarelli",
+    "url": "https://www.linkedin.com/in/alessandrocaprarelli/"
   },
   "strapi": {
     "isProvider": true
