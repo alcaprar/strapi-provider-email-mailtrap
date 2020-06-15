@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-mailtrap",
-  "version": "1.0.1",
+  "version": "3.0.1",
   "description": "Mailtrap provider for strapi email",
   "keywords": [
     "email",
@@ -20,7 +20,7 @@
   },
   "main": "./lib",
   "dependencies": {
-    "nodemailer": "^6.4.6"
+    "nodemailer": "^6.4.8"
   },
   "author": {
     "name": "Alessandro Caprarelli",
