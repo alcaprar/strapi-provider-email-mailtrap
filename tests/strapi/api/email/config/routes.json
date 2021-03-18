@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/email",
+      "handler": "Email.send",
+      "config": {
+      }
+    }]
+}
